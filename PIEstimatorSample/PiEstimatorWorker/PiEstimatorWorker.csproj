@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <version>1.22.00</version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DNVGL.One.Compute.WorkerHost.AzureBatch" Version="2.2.0" />
+    <PackageReference Include="System.Composition.AttributedModel" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PiEstimatorCommon\PiEstimatorCommon.csproj" />
+  </ItemGroup>
+
+</Project>
