@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorWorker", "PiEstimatorWorker\PiEstimatorWorker.csproj", "{DF5907DA-DC29-43AB-8888-C21D334875BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorCommon", "PiEstimatorCommon\PiEstimatorCommon.csproj", "{A2AC8DC6-BA6A-4654-9DA9-587B9E44E625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorClient", "PiEstimatorClient\PiEstimatorClient.csproj", "{18187A83-D2BB-4659-A1DD-4D22C12C8876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorTests", "PiEstimatorTests\PiEstimatorTests.csproj", "{659D2147-80EF-46EE-A5A7-0DA945A0E428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorClientLibrary", "PiEstimatorClientLibrary\PiEstimatorClientLibrary.csproj", "{91E0877C-5D37-4AE3-9AD4-E34AFB449DE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiEstimatorClient.ClientCredentials", "PiEstimatorClient.ClientCredentials\PiEstimatorClient.ClientCredentials.csproj", "{74835E8F-31BB-4BD5-BDB1-BA54D0EC45A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8F167B5-A50D-466B-BE0A-070AF0694DC7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5907DA-DC29-43AB-8888-C21D334875BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5907DA-DC29-43AB-8888-C21D334875BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5907DA-DC29-43AB-8888-C21D334875BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5907DA-DC29-43AB-8888-C21D334875BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AC8DC6-BA6A-4654-9DA9-587B9E44E625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AC8DC6-BA6A-4654-9DA9-587B9E44E625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AC8DC6-BA6A-4654-9DA9-587B9E44E625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AC8DC6-BA6A-4654-9DA9-587B9E44E625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18187A83-D2BB-4659-A1DD-4D22C12C8876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18187A83-D2BB-4659-A1DD-4D22C12C8876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18187A83-D2BB-4659-A1DD-4D22C12C8876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18187A83-D2BB-4659-A1DD-4D22C12C8876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659D2147-80EF-46EE-A5A7-0DA945A0E428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659D2147-80EF-46EE-A5A7-0DA945A0E428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659D2147-80EF-46EE-A5A7-0DA945A0E428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659D2147-80EF-46EE-A5A7-0DA945A0E428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E0877C-5D37-4AE3-9AD4-E34AFB449DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E0877C-5D37-4AE3-9AD4-E34AFB449DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E0877C-5D37-4AE3-9AD4-E34AFB449DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E0877C-5D37-4AE3-9AD4-E34AFB449DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74835E8F-31BB-4BD5-BDB1-BA54D0EC45A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74835E8F-31BB-4BD5-BDB1-BA54D0EC45A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74835E8F-31BB-4BD5-BDB1-BA54D0EC45A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74835E8F-31BB-4BD5-BDB1-BA54D0EC45A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E602FC65-1701-4819-B83F-97BC4C3E0760}
+	EndGlobalSection
+EndGlobal

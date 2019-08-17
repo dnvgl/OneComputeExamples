@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DNVGL.One.Compute.Platform.Client" Version="2.2.0" />
+
+    <ProjectReference Include="..\PiEstimatorCommon\PiEstimatorCommon.csproj" />
+  </ItemGroup>
+
+</Project>
