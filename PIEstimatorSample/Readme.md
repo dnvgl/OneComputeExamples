@@ -8,8 +8,9 @@ It estimates Pi by randomly picking numbers (x,y) within a square with -1 <= x,y
 
 # How to build and run
 
+Clone the OneComputeExamples repository.
 Open the PiEstimatorSample.sln solution in Visual Studio 2017 or 2019 and build it.
-Run one of the clients console applications.
+Run one of the client console applications.
 
 # Client code
 
