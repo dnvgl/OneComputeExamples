@@ -89,7 +89,7 @@
                             Console.WriteLine($"Retrieving results...{Environment.NewLine}");
 
                             // 5. Results retrieval
-                            var finalResultItem = await oneComputePlatformClient.GetWorkItemResult(job.JobId, reductionWorkUnit.Id);
+                            var finalResultItem = await oneComputePlatformClient.GetWorkItemResultAsync(job.JobId, reductionWorkUnit.Id);
                             if (finalResultItem != null)
                             {
                                 var finalResult = finalResultItem.GetResult<PiEstimateFinalResult>();
@@ -106,7 +106,7 @@
                     }
 
                     // The job has now terminated - successfully or otherwise.  Obtain the status record and write out the compute duration
-                    var jobStatusInfo = oneComputePlatformClient.GetJobStatus(job.JobId).GetAwaiter().GetResult();
+                    var jobStatusInfo = oneComputePlatformClient.GetJobStatusAsync(job.JobId).GetAwaiter().GetResult();
                     if (jobStatusInfo != null)
                     {
                         Console.WriteLine($"Job completed at {jobStatusInfo.CompletionTime}{Environment.NewLine}");
